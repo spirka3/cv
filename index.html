@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- jQuery	-->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- Me CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Just a title -->
+	<title>Moja osobná web-stránka</title>
+</head>
+
+<body>
+
+	<form action="mailto:janspirka98@gmail.com" method="post" enctype="text/plain">
+		<label> Your name:
+			<input type="text" name="yourName" value="">
+		</label><br>
+		<label> Your e-mail:
+			<input type="email" name="yourEmail" value="">
+		</label><br>
+		<label for="">Your Message:</label><br>
+		<textarea name="yourMessage" id="" cols="10" rows="3"></textarea><br>
+		<input type="submit">
+	</form>
+
+	<hr>
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2">Skills</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td>HTML</td>
+							<td>⭐⭐⭐⭐</td>
+						</tr>
+						<tr>
+							<td>CSS</td>
+							<td>⭐⭐</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td>Photoshop</td>
+							<td>⭐⭐</td>
+						</tr>
+						<tr>
+							<td>Sport</td>
+							<td>⭐⭐⭐⭐</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<hr>
+
+	<div class="container-fluid">
+		<div ></div>
+		<h2> Ročníkový projekt -1-</h2>
+		 <h3>Úvod</h3>
+		<ul>
+			<li>Téma: Politická evidencia zločincov</li>
+			<li>Jazyk: PHP</li>
+		</ul>
+		<h3> O projekte</h3>
+		<ul>
+			<li><strong>Prihlásenia a odhlásenie:</strong></li>
+				<li>každý používatel má svoju hodnosť podla čoho ma na stránke svoje právomoci</li>
+				<li>používatel si môže zmeniť svoje základné informácie ako email, prihlasovacie meno a heslo</li>
+				<li>neexistujúci používatel sa môže zaregistrovať</li>
+			<li><strong>Databáza zločincov:</strong></li>
+			<li>stránka kde sú všetci zločinci z databázy</li>
+				<li>obsauhje filtrovanie, podla ktorého sa dá vyhladať zločincov</li>
+				<li>pre každého zločinca sa dá kliknuť na detail</li>
+				<li>vyššie hodnosti možu upravovať, pridávať a vymazávať zločincov</li>
+			<li><strong>Pridanie zločinca</strong></li>
+				<li>používatel s danými právomocami môže vyplniť formulár a pridať nového zločinca do databázy</li>
+		</ul>
+		<p>Na stánke sa nachádza viacero detailov, ktoré majú nasimulovať stránku podobnú bežným verejným, tak aby bola logická a pre používatela priateľska</p>
+		<p>Link na stiahnutie <a href="projekt.zip" download>ročníkového projektu (1)</a>
+		<br>
+		<hr>
+		<br>
+		<h2> Ročníkový projekt (2)</h2>
+		<h3>Úvod</h3>
+		<ul>
+			<li>Téma: E-shop</li>
+			<li>Jazyk: Java, Postgresql</li>
+		</ul>
+		<h3> O projekte</h3>
+		<ul>
+			<li><strong>Aplikácia je rozdelená na administrátora a zákazníka:</strong></li><br>
+			<li><strong>Zákazníci:</strong></li>
+				<li>neexistujúci zákazník sa môže zaregistrovať</li>
+				<li>vyhľadávanie produktov, pridávanie ich do košíka, spravovanie košíka</li>
+				<li>objednávka s dodacov adresov, prípadné stornovanie</li>
+				<li>úprava/vymazanie profilu</li>
+			<li><strong>Administrátor</strong></li>
+				<li>pridávanie/aktualizovanie produktov</li>
+				<li>možnosť zákazníka odstrániť z registrovaných</li>
+				<li>expandovanie objednávky</li>
+				<li>štatistiky predaja</li>
+		</ul>
+		<p>Aplikácia obsahuje vzor Row Data Gateway a Transcription script na zjednošujenie opakovanej manipulácie</p>
+		<p>Transakcie sú chránené izolovanosťou a explicitným zamykaním, ktoré ponúka Postgresql</p>
+		<p>Link na stiahnutie <a href="projekt_db2.rar" download>ročníkového projektu (2)</a>
+		<br><br><br><br>
+
+
+	</div>
+
+
+	<footer>
+		<em>Autor: Ján Špirka, Mail: janspirka98@gmail.com</em>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

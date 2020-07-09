@@ -1,0 +1,23 @@
+body {
+	background-color: #E6E6E6;
+	padding: 2em;
+	padding-bottom: 0.5em;
+}
+
+h2 {
+	color: #FF0000;
+}
+
+section a {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+footer {
+	/* position: absolute; */
+	/* bottom: 0; */
+	/* color: #CCCCCC; */
+	/* background-color: #666666; */
+	/* text-align: center; */
+	/* padding: 0.5em; */
+}
